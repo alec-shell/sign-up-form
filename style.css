@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: flex-end;
+
+    background-image: url("img/background.jpg");
+    background-size: contain;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(230,230,230);
+
+    width: 70%;
+    height: 100vh;
+}
+
+.hero {
+    line-height: 1.5em;
+
+    padding: 100px 100px 0px 80px;
+
+    height: 30%;
+    max-width: 800px;
+}
+
+.club-title {
+    font-size: 2rem;
+}
+
+.sign-up-form {
+    height: 70%;
+    width: 100%;
+}
+
+.inputs {
+    color: white;
+    background-color: rgb(100,0,0);
+    box-shadow: 12px 10px 20px 10px rgb(20,20,20);
+
+    padding: 10px 80px;
+    margin-bottom: 40px;
+}
+
+ul {
+    max-width: 700px;
+    list-style-type: none;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    width: 250px;
+    margin: 20px 60px 20px 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+    padding-left: 80px;
+}
+
+button {
+    border: 3px solid rgb(0,0,0,.8);
+    border-radius: 10px;
+
+    padding: 10px 50px;
+    margin-bottom: 30px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    color: white;
+    background-color: rgb(190,190,190);
+}
+
+button:hover {
+    background-color: rgb(180,180,180);
+}
+
+button:active {
+    background-color: rgb(160,160,160);
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+input {
+    appearance: none;
+    background-color: rgb(230,230,230);
+    border: 2px solid rgb(200,200,200);
+    border-radius: 5px;
+    height: 2rem;
+}
+
+input:valid {
+    appearance: none;
+    outline: green 2px solid;
+}
+
+input:invalid {
+    appearance: none;
+    outline: red 2px solid;
+}
+
+input:focus {
+    appearance: none;
+    outline: rgb(0,160,250) 3px solid;
+}
