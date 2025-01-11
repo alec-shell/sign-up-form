@@ -5,11 +5,17 @@
 }
 
 body {
+    font-size: inherit;
     display: flex;
-    justify-content: flex-end;
+    height: 100vh;
+}
 
+.banner-img {
     background-image: url("img/background.jpg");
-    background-size: contain;
+    background-size: cover;
+
+    width: 30%;
+    height: 100%;
 }
 
 .content {
@@ -18,17 +24,19 @@ body {
 
     background-color: rgb(230,230,230);
 
-    width: 70%;
-    height: 100vh;
+    min-width: 70%;
+    height: 100%;
+    flex-grow: 1;
 }
 
-.hero {
+.header {
     line-height: 1.5em;
 
     padding: 100px 100px 0px 80px;
-
+    margin-bottom: 0px;
     height: 30%;
     max-width: 800px;
+    
 }
 
 .club-title {
