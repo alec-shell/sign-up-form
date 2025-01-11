@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "jam-drips";
+    src: url("fonts/dripinkpersonaluseblack-p72nk-webfont.woff"), format("woff"),
+         url("fonts/dripinkpersonaluseblack-p72nk-webfont.woff2"), format("woff2");
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -16,6 +22,21 @@ body {
 .banner-img {
     width: 30%;
     height: 100dvh;
+}
+
+.banner-logo {
+    width: 100%;
+    height: 120px;
+    margin-top: 210px;
+    padding: 0 25%;
+
+    background-color: black;
+    opacity: 50%;
+    color: white;
+
+    text-align: center;
+    font-size: 3rem;
+    font-family: "jam-drips";
 }
 
 .content {
