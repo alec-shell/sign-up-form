@@ -105,15 +105,30 @@ input {
 
 input:valid {
     appearance: none;
-    outline: green 2px solid;
+    background-color: rgb(0,255,0,.5);
 }
 
 input:invalid {
     appearance: none;
-    outline: red 2px solid;
+    background-color: rgb(255,0,0,.5);
 }
 
 input:focus {
     appearance: none;
-    outline: rgb(0,160,250) 3px solid;
+    outline: rgb(0,160,250) 2px solid;
+}
+
+#sign-in-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(100,0,0);
+}
+
+#sign-in-link:hover {
+    border-bottom: 1px solid rgb(100,0,0);
+}
+
+#sign-in-link:active {
+    color: rgb(200,0,0);
+    border-bottom: 1px solid rgb(200,0,0);
 }

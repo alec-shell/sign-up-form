@@ -36,7 +36,7 @@
                     </li>
                     <li>
                         <label for="tel-num">TELEPHONE NUMBER</label>
-                        <input type="tel" id="tel-num" name="user-num" placeholder="555-555-5555" required>
+                        <input type="tel" id="tel-num" name="user-num" placeholder="555-555-5555" pattern="[0-9]{3}[' '-.]?[0-9]{3}[' '-.]?[0-9]{4}" required>
                     </li>
                     <li>
                         <label for="init-pass">PASSWORD</label>
@@ -50,7 +50,7 @@
             </div>
             <div class="submit-btn">
                 <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="#">Sign In</a></p>
+                <p>Already have an account? <a href="#" id="sign-in-link">Sign In</a></p>
             </div>
         </form>
     </div>
